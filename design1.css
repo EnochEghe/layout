@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(249, 248, 240);
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+}
+.sedans{
+    background-color:hsl(31, 77%, 52%);
+    padding: 2em;
+    height: 65%;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+.sedans h4{
+    font-size: bold;
+    padding: 1em;
+    font-size: 15px;
+    font-weight:400px;
+
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    height: 65%;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.suv h4 {
+    font-size: bold;
+    padding: 1em;
+    font-size: 15px;
+    font-weight: 400px;
+
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    height: 65%;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family:Lexend Deca;
+}
+
+.luxury h4 {
+    font-size: bold;
+    padding: 1em;
+    font-size: 15px;  
+    font-weight: 400px;
+
+}
+.button1 {
+    padding: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%);
+    text-align: center;
+    width: 150px;
+    border-radius: 39%;
+    font-size: 15px;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    }
+.button2 {
+    padding: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(184, 100%, 22%);
+    text-align: center;
+    width: 150px;
+    border-radius: 39%;
+    font-size: 15px;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.button3 {
+    padding: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color:hsl(179, 100%, 13%);
+    text-align: center;
+    width: 150px;
+    border-radius: 39%;
+    font-size: 15px;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
