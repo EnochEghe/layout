@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(188, 186, 196);
+}
+
+main {
+    width: 90%;
+    -ms-flex-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    flex-direction: column;
+    background-color: rgb(5, 1, 17);
+    }
+.firstlayout{
+    display:flex;
+    flex-direction: row; 
+    width: 50%;
+    }
+.firstbox{
+    width: 450px;
+    height: 250px;
+    border: 5px solid rgb(5, 1, 17);
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(238, 71, 5)
+
+}
+.secondbox {
+    width: 200px;
+    height: 250px;
+    border: 5px solid rgb(5, 1, 17);
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(209, 195, 2)
+}
+.secondlayout {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+       }
+.thirdbox {
+    width: 400px;
+    height: 250px;
+    border: 5px solid rgb(5, 1, 17);
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(7, 36, 2)
+}
+.thirdlayout {
+    display: flex;
+        flex-direction: column;
+                  
+}
+.fourthbox {
+    width: 400px;
+    height: 125px;
+    border: 5px solid rgb(5, 1, 17);
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(8, 228, 235)
+}
+.fifthbox {
+    width: 400px;
+    height: 125px;
+    border: 5px solid rgb(5, 1, 17);
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(8, 228, 235)
+}
